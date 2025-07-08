@@ -6,10 +6,10 @@
 <meta charset="utf-8"/>
 <title>Vashti’s Heart Healing</title>
 <link href="hero.css" rel="stylesheet"/>
-<link href="site.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-<header class="hero-container">
+<header class="hero-container" id="hero">
 <div class="video-stage" id="stage1">
 <video autoplay="" muted="" playsinline="">
 <source src="stage1.mp4" type="video/mp4"/>
@@ -41,19 +41,18 @@
 </div>
 </div>
 </header>
-<div class="fade-in">
-<nav class="navbar">
+<nav class="main-nav page-fade-in">
 <ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="is-this-you.html">Is This You?</a></li>
-<li><a href="about.html">About Me</a></li>
-<li><a href="hearthealing.html">HeartHealing</a></li>
-<li><a href="musings.html">My Musings</a></li>
-<li><a href="index.html#contact">Contact</a></li>
+<li><a href="#hero">Home</a></li>
+<li><a href="#isthisyou">Is This You?</a></li>
+<li><a href="#about">About Me</a></li>
+<li><a href="#hearthealing">HeartHealing</a></li>
+<li><a href="#contact">Contact</a></li><li><a href="musings.html">My Musings</a></li>
 </ul>
 </nav>
-<section class="section" id="isthisyou">
-<div class="container grid-2">
+<div class="fade-in">
+<section class="section teaser image-left page-fade-in" id="isthisyou">
+<div class="teaser-container image-left">
 <div class="text-block">
 <h2>Is This You?</h2>
 <p>Something has brought you to this space: maybe grief, a loss, anxiety, stress, overwhelm.</p>
@@ -64,8 +63,8 @@
 <div><img alt="Heart carved into a tree" src="Heart_on_tree.png"/></div>
 </div>
 </section>
-<section class="section" id="about">
-<div class="container grid-2">
+<section class="section teaser text-left page-fade-in" id="about">
+<div class="teaser-container text-left">
 <div><img alt="Portrait of Vashti" class="about-img" src="portrait.jpg"/></div>
 <div class="text-block">
 <h2>About Me</h2>
@@ -76,8 +75,8 @@
 </div>
 </div>
 </section>
-<section class="section" id="hearthealing">
-<div class="container grid-2">
+<section class="section teaser image-left page-fade-in" id="hearthealing">
+<div class="teaser-container image-left">
 <div class="text-block">
 <h2>How I Use HeartHealing</h2>
 <p>Together, we will explore – enquire with curiosity – what is going on for you.</p>
@@ -88,13 +87,13 @@
 <div><img alt="Decorative therapeutic art" src="How_I_Use_Heart_Healing.png"/></div>
 </div>
 </section>
-<section class="section" id="contact">
+<section class="section page-fade-in" id="contact">
 <div class="container">
 <h2>Contact Me</h2>
 <p>[Contact form placeholder]</p>
 </div>
 </section>
-<section class="section no-padding" id="footer-img">
+<section class="section no-padding page-fade-in" id="footer-img">
 <img alt="Tree roots background" class="full-width-img" src="roots.jpg"/>
 </section>
 <script src="hero.js"></script>
